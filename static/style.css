@@ -1,0 +1,58 @@
+.mothercontainer {
+  padding: 20px;
+  background-color: red;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 9px;
+}
+
+/* inside the mother-contianer */
+.box {
+  padding: 10px;
+  background-color: greenyellow;
+  /* display: flex; */
+  gap: 10px;
+  margin: 4px;
+}
+
+#sidebar {
+  padding: 10px;
+  background-color: green;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.cell {
+  background-color: aqua;
+  padding: 5px;
+}
+
+.card {
+  background-color: blue;
+}
+#cards-component {
+  padding: 10px;
+  background-color: yellow;
+  display: flex;
+  gap: 10px;
+}
+
+#graph-component {
+  padding: 10px;
+  background-color: yellow;
+  display: flex;
+  gap: 10px;
+}
+
+.dashboardcenter {
+  display: flex;
+  gap: 10px;
+  background-color: black;
+  padding: 5px;
+  flex-direction: column;
+}
+
+.graph {
+  background-color: violet;
+}

@@ -1,0 +1,15 @@
+.mothercontainer {
+  background-color: blue;
+  display: grid;
+  gap: 3px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.box {
+  background-color: greenyellow;
+}
+
+#box2 {
+  grid-area: 1 / 2 / 1 / 4;
+}
